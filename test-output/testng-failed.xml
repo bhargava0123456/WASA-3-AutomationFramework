@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.Createorganisation">
+      <class name="practice.TestClass3">
         <methods>
-          <include name="removedb"/>
-          <include name="createorg"/>
-          <include name="quit"/>
-          <include name="browser"/>
-          <include name="login"/>
-          <include name="logout"/>
-          <include name="database"/>
+          <include name="testmethod10"/>
         </methods>
-      </class> <!-- practice.Createorganisation -->
+      </class> <!-- practice.TestClass3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

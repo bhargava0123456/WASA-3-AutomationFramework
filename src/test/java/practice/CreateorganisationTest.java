@@ -4,12 +4,13 @@ import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import vtiger.GenericUtilities.BaseClass;
 import vtiger.ObjectRepository.CreateOrganisation_POM;
 import vtiger.ObjectRepository.Homepage;
-
+@Listeners(vtiger.GenericUtilities.ListenersImplementation.class)
 public class CreateorganisationTest extends BaseClass {
 
 	@Test
