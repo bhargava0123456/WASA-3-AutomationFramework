@@ -1,41 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-02T15:41:45 IST" name="Default suite" finished-at="2023-04-02T15:42:13 IST" duration-ms="27468">
+  <suite started-at="2023-04-02T16:39:56 IST" name="Suite" finished-at="2023-04-02T16:40:19 IST" duration-ms="23426">
     <groups>
+      <group name="regression">
+        <method signature="Practice_Test.regress()[pri:0, instance:practice.Practice_Test@2e6a8155]" name="regress" class="practice.Practice_Test"/>
+        <method signature="TestClass1.testmethod3()[pri:0, instance:practice.TestClass1@3012646b]" name="testmethod3" class="practice.TestClass1"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Practice_Test.smoke()[pri:0, instance:practice.Practice_Test@2e6a8155]" name="smoke" class="practice.Practice_Test"/>
+        <method signature="TestClass1.testmethod1()[pri:0, instance:practice.TestClass1@3012646b]" name="testmethod1" class="practice.TestClass1"/>
+        <method signature="TestClass1.testmethod2()[pri:0, instance:practice.TestClass1@3012646b]" name="testmethod2" class="practice.TestClass1"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-04-02T15:41:45 IST" name="Default test" finished-at="2023-04-02T15:42:13 IST" duration-ms="27468">
+    <test started-at="2023-04-02T16:39:56 IST" name="Test" finished-at="2023-04-02T16:40:19 IST" duration-ms="23426">
       <class name="practice.CreateorganisationTest">
-        <test-method is-config="true" signature="database()[pri:0, instance:practice.CreateorganisationTest@72e5a8e]" started-at="2023-04-02T15:41:45 IST" name="database" finished-at="2023-04-02T15:41:45 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="database()[pri:0, instance:practice.CreateorganisationTest@130c12b7]" started-at="2023-04-02T16:39:56 IST" name="database" finished-at="2023-04-02T16:39:56 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- database -->
-        <test-method is-config="true" signature="removedb()[pri:0, instance:practice.CreateorganisationTest@72e5a8e]" started-at="2023-04-02T15:41:45 IST" name="removedb" finished-at="2023-04-02T15:41:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="removedb()[pri:0, instance:practice.CreateorganisationTest@130c12b7]" started-at="2023-04-02T16:39:56 IST" name="removedb" finished-at="2023-04-02T16:39:56 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removedb -->
-        <test-method is-config="true" signature="browser()[pri:0, instance:practice.CreateorganisationTest@72e5a8e]" started-at="2023-04-02T15:41:46 IST" name="browser" finished-at="2023-04-02T15:41:51 IST" duration-ms="5058" status="PASS">
+        <test-method is-config="true" signature="browser()[pri:0, instance:practice.CreateorganisationTest@130c12b7]" started-at="2023-04-02T16:39:56 IST" name="browser" finished-at="2023-04-02T16:40:00 IST" duration-ms="3882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:practice.CreateorganisationTest@72e5a8e]" started-at="2023-04-02T15:41:51 IST" name="login" finished-at="2023-04-02T15:41:55 IST" duration-ms="4585" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:practice.CreateorganisationTest@130c12b7]" started-at="2023-04-02T16:40:00 IST" name="login" finished-at="2023-04-02T16:40:04 IST" duration-ms="3901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createorg()[pri:0, instance:practice.CreateorganisationTest@72e5a8e]" started-at="2023-04-02T15:41:55 IST" name="createorg" finished-at="2023-04-02T15:42:10 IST" duration-ms="14868" status="PASS">
+        <test-method signature="createorg()[pri:0, instance:practice.CreateorganisationTest@130c12b7]" started-at="2023-04-02T16:40:04 IST" name="createorg" finished-at="2023-04-02T16:40:17 IST" duration-ms="12889" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createorg -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:practice.CreateorganisationTest@72e5a8e]" started-at="2023-04-02T15:42:10 IST" name="logout" finished-at="2023-04-02T15:42:12 IST" duration-ms="2130" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:practice.CreateorganisationTest@130c12b7]" started-at="2023-04-02T16:40:17 IST" name="logout" finished-at="2023-04-02T16:40:19 IST" duration-ms="2022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:practice.CreateorganisationTest@72e5a8e]" started-at="2023-04-02T15:42:12 IST" name="quit" finished-at="2023-04-02T15:42:13 IST" duration-ms="378" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:practice.CreateorganisationTest@130c12b7]" started-at="2023-04-02T16:40:19 IST" name="quit" finished-at="2023-04-02T16:40:19 IST" duration-ms="377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- practice.CreateorganisationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="practice.TestClass1">
+        <test-method signature="testmethod1()[pri:0, instance:practice.TestClass1@3012646b]" started-at="2023-04-02T16:40:19 IST" name="testmethod1" finished-at="2023-04-02T16:40:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod1 -->
+        <test-method signature="testmethod2()[pri:0, instance:practice.TestClass1@3012646b]" started-at="2023-04-02T16:40:19 IST" name="testmethod2" finished-at="2023-04-02T16:40:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod2 -->
+        <test-method signature="testmethod3()[pri:0, instance:practice.TestClass1@3012646b]" started-at="2023-04-02T16:40:19 IST" name="testmethod3" finished-at="2023-04-02T16:40:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod3 -->
+        <test-method signature="testmethod4()[pri:0, instance:practice.TestClass1@3012646b]" started-at="2023-04-02T16:40:19 IST" name="testmethod4" finished-at="2023-04-02T16:40:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod4 -->
+      </class> <!-- practice.TestClass1 -->
+      <class name="practice.TestClass2">
+        <test-method signature="testmethod5()[pri:0, instance:practice.TestClass2@4a883b15]" started-at="2023-04-02T16:40:19 IST" name="testmethod5" finished-at="2023-04-02T16:40:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod5 -->
+        <test-method signature="testmethod6()[pri:0, instance:practice.TestClass2@4a883b15]" started-at="2023-04-02T16:40:19 IST" name="testmethod6" finished-at="2023-04-02T16:40:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod6 -->
+        <test-method signature="testmethod7()[pri:0, instance:practice.TestClass2@4a883b15]" started-at="2023-04-02T16:40:19 IST" name="testmethod7" finished-at="2023-04-02T16:40:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod7 -->
+        <test-method signature="testmethod8()[pri:0, instance:practice.TestClass2@4a883b15]" started-at="2023-04-02T16:40:19 IST" name="testmethod8" finished-at="2023-04-02T16:40:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod8 -->
+      </class> <!-- practice.TestClass2 -->
+      <class name="practice.TestClass3">
+        <test-method signature="testmethod10()[pri:0, instance:practice.TestClass3@51c668e3]" started-at="2023-04-02T16:40:19 IST" name="testmethod10" finished-at="2023-04-02T16:40:19 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod10 -->
+        <test-method signature="testmethod11()[pri:0, instance:practice.TestClass3@51c668e3]" started-at="2023-04-02T16:40:19 IST" name="testmethod11" finished-at="2023-04-02T16:40:19 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod11 -->
+        <test-method signature="testmethod12()[pri:0, instance:practice.TestClass3@51c668e3]" started-at="2023-04-02T16:40:19 IST" name="testmethod12" finished-at="2023-04-02T16:40:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod12 -->
+        <test-method signature="testmethod9()[pri:0, instance:practice.TestClass3@51c668e3]" started-at="2023-04-02T16:40:19 IST" name="testmethod9" finished-at="2023-04-02T16:40:19 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod9 -->
+      </class> <!-- practice.TestClass3 -->
+      <class name="practice.Practice_Test">
+        <test-method signature="regress()[pri:0, instance:practice.Practice_Test@2e6a8155]" started-at="2023-04-02T16:40:19 IST" name="regress" finished-at="2023-04-02T16:40:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regress -->
+        <test-method signature="smoke()[pri:0, instance:practice.Practice_Test@2e6a8155]" started-at="2023-04-02T16:40:19 IST" name="smoke" finished-at="2023-04-02T16:40:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke -->
+      </class> <!-- practice.Practice_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

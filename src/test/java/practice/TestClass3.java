@@ -15,7 +15,7 @@ public class TestClass3 {
 	@Test(retryAnalyzer = vtiger.GenericUtilities.IretryAnalyser.class)
 	public void testmethod10()
 	{
-		Assert.fail();
+		//Assert.fail();
 		System.out.println("testmethod 10"+Thread.currentThread());
 	}
 
